@@ -1,50 +1,29 @@
 public class Protagonist extends Character {
-    private String name;
-    private int health = 500;
-    private boolean specialized = false;
-    private int specializedMultiplier = 2;
-    private int baseAttackDamage = 15;
-    private int attackVariation = 3;
+    private String _name;
 
-    public Protagonist(String name) {
-        this.name = name;
+    public Protagonist() {
+        _hp = 125;
+        _strength = 100;
+        _defense = 40;
+        _attack = .4;
     }
 
-    public boolean isAlive() {
-        return health > 0;
+    public Protagonist(String name) {
+        this();
+        _name = name;
     }
 
     public void specialize() {
-        specialized = true;
+        _attack = .75;
+        _defense = 20;
     }
 
     public void normalize() {
-        specialized = false;
+        _attack = .4;
+        _defense = 40;
     }
 
     public String getName() {
-        return name;
+        return _name;
     }
-
-    public int getHealth() {
-        return health;
-    }
-
-    public boolean getSpecialized() {
-        return specialized;
-    }
-
-    public int getSpecializedMultiplier() {
-        return specializedMultiplier;
-    }
-
-    public void loseHealth(int damage) {
-        health = health - damage;
-    }
-
-    public int attack(Monster m) {
-        return super.attack(m);
-    }
-
-      
 }

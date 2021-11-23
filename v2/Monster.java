@@ -1,23 +1,8 @@
-public class Monster extends Character{
-    private int health = 100;
-    private int baseAttackDamage = 10;
-    private int attackVariation = 2;
-
-    public int getHealth() {
-        return health;
+public class Monster extends Character {
+    public Monster() {
+        _hp = 150;
+        _strength = 20 + (int) (Math.random() * 45); // [20,65)
+        _defense = 20;
+        _attack = 1;
     }
-
-    public void loseHealth(int damage) {
-        health = health - damage;
-    }
-
-    public boolean isAlive() {
-        return health > 0;
-    }
-
-    public int attack(Protagonist p) {
-        return super.attack(p);
-    }
-
-
 }

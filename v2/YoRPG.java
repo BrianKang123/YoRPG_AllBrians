@@ -1,20 +1,8 @@
-/**********************************************
- * class YoRPG -- Driver file for Ye Olde Role Playing Game.
- * Simulates monster encounters of a wandering adventurer.
- * Required classes: Protagonist, Monster
- * 
- * USAGE:
- * Compile. Note messages generated.
- * Devise a plan of attack with your trio.
- * Code incrementally, testing each bit of new functionality as you go.
- * The only modification you should make to this driver file is moving comment bar down in main method, and filling in DISCO/QCC
- * (If you feel other changes are merited, note what and why, so that we may discuss on the 'morrow.)
- * 
- * DISCO:
- *
- * QCC:
- * 
- **********************************************/
+// TNPG: All Brians (Ryan Lau, Brian Kang, Brian Wang)
+// APCS
+// L01: An Adventurer is You!
+// 2021-11-23
+// time spent: 0.5 hrs
 
 import java.io.*;
 import java.util.*;

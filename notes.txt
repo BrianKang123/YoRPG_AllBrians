@@ -1,0 +1,3 @@
+discos in v1:
+    - extending the Monster and Protagonist classes with the Character class doesn't change or break the functionality of YoRPG.java
+    - maybe this is because methods in the subclasses override the methods of the same name in the superclass

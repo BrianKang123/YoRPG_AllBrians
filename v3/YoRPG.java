@@ -11,15 +11,15 @@ TODO:
     - [X] implement static about() method into each subclass
     - [X] allow for player to choose their class
     - [X] add "OUR DRIVER MODS" block comment
-    - [ ] edit README.md to
+    - [X] edit README.md to
         - [X] prominently display TNPG + roster
         - [X] explain new classes
         - [X] summarize version to version mods
         - [X] list ways to grow this game in the future
 
-    - [ ] copy latest working version into root
-    - [ ] add heading to notes.txt
-    - [ ] add disco/qcc/notes into notes.txt
+    - [X] copy latest working version into root
+    - [X] add heading to notes.txt
+    - [X] add disco/qcc/notes into notes.txt
 
     - [X] fill googform
 */

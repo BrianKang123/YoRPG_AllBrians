@@ -1,3 +1,15 @@
+TNPG: All Brian (Ryan Lau, Brian Kang, Brian Wang)
+APCS
+L01: An Adventurer is You!
+2021-11-23
+
+discos in v2 and v3
+    - we did not have to use super or super()
+    - used scanner to recieve user input for Protagonist role
+
+qccs in v2 and v3
+    - what would be a good way to make sure that all of our new classes are working properly?
+
 discos in v1:
     - extending the Monster and Protagonist classes with the Character class doesn't change or break the functionality of YoRPG.java
     - maybe this is because methods in the subclasses override the methods of the same name in the superclass
